@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6050505"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".RecyclerViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#C62E2B2B">
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/texto"
+        android:textColor="#FDF7F5F5" />
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10sp"
+            android:text="@string/Aceptar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4sp"
+            android:layout_marginBottom="10sp"
+            android:background="#5D595E" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnAceptar" />
+    </LinearLayout>
+
+</LinearLayout>

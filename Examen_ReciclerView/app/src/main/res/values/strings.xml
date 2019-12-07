@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="texto">Selecciona los dispositivos que uses para navegar en internet y pulsa \'Aceptar\'.</string>
+    <string name="app_name">Examen PMM (RecyclerView)</string>
+    <string name="sin_datos">No hay datos</string>
+    <string name="Aceptar">Aceptar</string>
+
+</resources>

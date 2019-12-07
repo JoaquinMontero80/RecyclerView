@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:clickable="false"
+        android:buttonTint="@color/colorPrimary"
+        android:layout_marginLeft="10dp" />
+
+	<!-- Vistas que se usan para dibujar cada opción del listado del ListActivity -->
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="6sp" />
+
+    <TextView
+        android:id="@+id/LblTitulo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FAFAF9F9"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginLeft="50sp"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
